@@ -1,0 +1,13 @@
+Collecting numpy==1.26.2
+  Downloading numpy-1.26.2-cp310-cp310-win_amd64.whl (15.8 MB)
+     ---------------------------------------- 15.8/15.8 MB 6.4 MB/s eta 0:00:00
+Collecting opencv-python-headless==4.5.5.64
+  Downloading opencv_python_headless-4.5.5.64-cp36-abi3-win_amd64.whl (35.3 MB)
+     ---------------------------------------- 35.3/35.3 MB 7.8 MB/s eta 0:00:00
+Installing collected packages: numpy, opencv-python-headless
+  WARNING: The script f2py.exe is installed in 'C:\Users\nqt00\OneDrive\Desktop\New folder\ORM-ANDROID\.tools\python310\tools\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed numpy-1.26.2 opencv-python-headless-4.5.5.64
+
+[notice] A new release of pip is available: 23.0.1 -> 26.2.1
+[notice] To update, run: C:\Users\nqt00\OneDrive\Desktop\New folder\ORM-ANDROID\.tools\python310\tools\python.exe -m pip install --upgrade pip

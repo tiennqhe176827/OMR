@@ -1,0 +1,10 @@
+test_camera_pipeline_matches_file_input (test_camera_bridge.CameraBridgeTests) ... ok
+test_continuous_scan_rejects_blank_then_emits_once_and_resets (test_camera_bridge.CameraBridgeTests) ... ok
+test_key_revision_and_grading_contract (test_camera_bridge.CameraBridgeTests) ... ok
+test_rotation_and_unsigned_bytes (test_camera_bridge.CameraBridgeTests) ... ok
+test_stability_resets_on_motion_gap_and_missing_markers (test_camera_bridge.CameraBridgeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.866s
+
+OK

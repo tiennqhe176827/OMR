@@ -1,0 +1,14 @@
+test_camera_pipeline_matches_file_input (test_camera_bridge.CameraBridgeTests) ... ok
+test_camera_reads_complete_sheet_on_dark_background (test_camera_bridge.CameraBridgeTests) ... ok
+test_continuous_scan_rejects_blank_then_emits_once_and_resets (test_camera_bridge.CameraBridgeTests) ... ok
+test_diagnostic_preserves_alignment_failure_and_current_frame (test_camera_bridge.CameraBridgeTests) ... ok
+test_handheld_drift_and_slow_processing_can_reach_capture (test_camera_bridge.CameraBridgeTests) ... ok
+test_key_revision_and_grading_contract (test_camera_bridge.CameraBridgeTests) ... ok
+test_manual_read_uses_current_frame_and_still_rejects_bad_input (test_camera_bridge.CameraBridgeTests) ... ok
+test_rotation_and_unsigned_bytes (test_camera_bridge.CameraBridgeTests) ... ok
+test_stability_resets_on_motion_gap_and_missing_markers (test_camera_bridge.CameraBridgeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 5.131s
+
+OK

@@ -1,0 +1,26 @@
+test_blank_or_clipped_paper_does_not_trigger_outline_capture (test_camera_bridge.CameraBridgeTests) ... ok
+test_countdown_restarts_on_motion_loss_pause_or_long_gap (test_camera_bridge.CameraBridgeTests) ... ok
+test_diagnostic_includes_failure_and_tracker_metrics (test_camera_bridge.CameraBridgeTests) ... ok
+test_distant_sheet_prompts_closer_then_captures_first_close_frame (test_camera_bridge.CameraBridgeTests) ... ok
+test_first_corner_updates_progress_without_capture (test_camera_bridge.CameraBridgeTests) ... ok
+test_handheld_drift_does_not_delay_capture (test_camera_bridge.CameraBridgeTests) ... ok
+test_key_revision_and_grading_contract (test_camera_bridge.CameraBridgeTests) ... ok
+test_live_lock_then_full_resolution_omr (test_camera_bridge.CameraBridgeTests) ... ok
+test_manual_capture_bypasses_countdown (test_camera_bridge.CameraBridgeTests) ... ok
+test_manual_still_rejects_bad_input_and_records_trigger (test_camera_bridge.CameraBridgeTests) ... image_too_blurry: Laplacian variance below minimum
+ok
+test_no_stale_detection_after_paper_is_removed (test_camera_bridge.CameraBridgeTests) ... ok
+test_paper_outline_captures_without_waiting_for_four_markers (test_camera_bridge.CameraBridgeTests) ... ok
+test_retained_camera_limited_luma_range_reads_answers (test_camera_bridge.CameraBridgeTests) ... ok
+test_retained_full_resolution_frame_survives_camera_movement (test_camera_bridge.CameraBridgeTests) ... ok
+test_rotation_and_unsigned_y_plane (test_camera_bridge.CameraBridgeTests) ... ok
+test_blank_pdf_and_marked_camera_variants (test_cv1239.CV1239Tests) ... ok
+test_template_dimensions_and_switching (test_cv1239.CV1239Tests) ... ok
+test_corrections_persist_regrade_and_color_image (test_manual_grading.ManualGradingTests) ... ok
+test_local_drift_is_refined_even_when_marker_error_is_below_threshold (test_reported_alignment.ReportedAlignmentTests) ... ok
+test_clear_zero_with_empty_trailing_columns (test_reported_unclear.ReportedUnclearTests) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 10.794s
+
+OK

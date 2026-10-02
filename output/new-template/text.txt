@@ -1,0 +1,34 @@
+Môn thi
+của Giám thị 1
+của Giám thị 2
+PHẦN I
+11 21 31
+12 22 32
+13 23 33
+14 24 34
+15 25 35
+6 16 26 36
+7 17 27 37
+8 18 28 38
+9 19 29 39
+10 20 30 40
+PHẦN II
+Câu 1 Câu 2 Câu 3 Câu 4 Câu 5 Câu 6 Câu 7 Câu 8
+Đúng Sai Đúng Sai Đúng Sai Đúng Sai Đúng Sai Đúng Sai Đúng Sai Đúng Sai
+a) a) a) a)
+b) b) b) b)
+c) c) c) c)
+d) d) d) d)
+PHẦN III
+Câu 1 Câu 2 Câu 3 Câu 4 Câu 5 Câu 6
+, , , , , ,
+0 0 0 0 0 0
+1 1 1 1 1 1
+2 2 2 2 2 2
+3 3 3 3 3 3
+4 4 4 4 4 4
+5 5 5 5 5 5
+6 6 6 6 6 6
+7 7 7 7 7 7
+8 8 8 8 8 8
+9 9 9 9 9 9

@@ -1,0 +1,25 @@
+original: ok, 105/105
+rotation_-15: ok, 105/105
+rotation_-10: ok, 105/105
+rotation_-5: ok, 105/105
+rotation_-3: ok, 105/105
+rotation_3: ok, 105/105
+rotation_5: ok, 105/105
+rotation_10: ok, 105/105
+rotation_15: ok, 105/105
+orientation_90: ok, 105/105
+orientation_180: ok, 105/105
+orientation_270: ok, 105/105
+perspective: ok, 105/105
+scale_0.6: ok, 105/105
+scale_1.3: ok, 105/105
+brightness_0.65: ok, 105/105
+brightness_1.2: ok, 105/105
+contrast: ok, 105/105
+blur: ok, 105/105
+noise: ok, 105/105
+jpeg_45: ok, 105/105
+shadow: ok, 105/105
+off_center: ok, 105/105
+slight_edge_crop: ok, 105/105
+Mean group accuracy: 1.0000

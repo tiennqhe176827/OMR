@@ -1,0 +1,12 @@
+camera_gray ok None mismatches: 0
+camera_limited_y ok None mismatches: 0
+paper_1000_background_25 ok None mismatches: 0
+paper_1000_background_25_shadow ok None mismatches: 0
+paper_1000_background_120 ok None mismatches: 0
+paper_1000_background_120_shadow ok None mismatches: 0
+paper_1400_background_25 ok None mismatches: 0
+paper_1400_background_25_shadow ok None mismatches: 0
+paper_1400_background_120 ok None mismatches: 0
+paper_1400_background_120_shadow ok None mismatches: 0
+perspective_dark_table ok None mismatches: 0
+perspective_shadow ok None mismatches: 0

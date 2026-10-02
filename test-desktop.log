@@ -1,0 +1,64 @@
+test_no_fit_with_insufficient_spatial_coverage (test_alignment.AlignmentTests.test_no_fit_with_insufficient_spatial_coverage) ... ok
+test_outlier_marker_is_not_discarded_to_pass_alignment (test_alignment.AlignmentTests.test_outlier_marker_is_not_discarded_to_pass_alignment) ... ok
+test_pipeline_failure_keeps_alignment_debug (test_alignment.AlignmentTests.test_pipeline_failure_keeps_alignment_debug) ... alignment_failed: Only 0/6 independent auxiliary markers matched
+ok
+test_scale_and_shear_refined_without_raising_threshold (test_alignment.AlignmentTests.test_scale_and_shear_refined_without_raising_threshold) ... ok
+test_adaptive_threshold_guard (test_bubble_scoring.BubbleTests.test_adaptive_threshold_guard) ... ok
+test_decisions (test_bubble_scoring.BubbleTests.test_decisions) ... ok
+test_mask_and_bounds (test_bubble_scoring.BubbleTests.test_mask_and_bounds) ... ok
+test_ring_excluded_and_fill_detected (test_bubble_scoring.BubbleTests.test_ring_excluded_and_fill_detected) ... ok
+test_uniform_pencil_fill_not_erased_by_adaptive_threshold (test_bubble_scoring.BubbleTests.test_uniform_pencil_fill_not_erased_by_adaptive_threshold) ... ok
+test_uniform_shadow_is_not_ink (test_bubble_scoring.BubbleTests.test_uniform_shadow_is_not_ink) ... ok
+test_nested_roundtrip (test_coordinates.CoordinateTests.test_nested_roundtrip) ... ok
+test_projective_roundtrip (test_coordinates.CoordinateTests.test_projective_roundtrip) ... ok
+test_skewed_grid_anchors (test_coordinates.CoordinateTests.test_skewed_grid_anchors) ... ok
+test_leading_zeros (test_decoder.DecoderTests.test_leading_zeros) ... ok
+test_multiple_does_not_concatenate (test_decoder.DecoderTests.test_multiple_does_not_concatenate) ... ok
+test_rules_control_symbols_and_blanks (test_decoder.DecoderTests.test_rules_control_symbols_and_blanks) ... ok
+test_short_invalid (test_decoder.DecoderTests.test_short_invalid) ... ok
+test_short_valid (test_decoder.DecoderTests.test_short_valid) ... ok
+test_blank_multiple_invalid_and_missing (test_grading.GradingTests.test_blank_multiple_invalid_and_missing) ... ok
+test_code_is_strict_and_quality_flag_survives (test_grading.GradingTests.test_code_is_strict_and_quality_flag_survives) ... ok
+test_every_subject_full_score_and_unused_questions_ignored (test_grading.GradingTests.test_every_subject_full_score_and_unused_questions_ignored) ... ok
+test_exact_numeric_comparison_no_rounding (test_grading.GradingTests.test_exact_numeric_comparison_no_rounding) ... ok
+test_it_selects_explicit_four_not_best_four (test_grading.GradingTests.test_it_selects_explicit_four_not_best_four) ... ok
+test_store_roundtrip_isolation_revision_and_not_found (test_grading.GradingTests.test_store_roundtrip_isolation_revision_and_not_found) ... ok
+test_true_false_nonlinear_scoring_and_ambiguous_bounds (test_grading.GradingTests.test_true_false_nonlinear_scoring_and_ambiguous_bounds) ... ok
+test_editor_does_not_save_incomplete_key_and_it_needs_four (test_grading.GradingUITests.test_editor_does_not_save_incomplete_key_and_it_needs_four) ... ok
+test_editor_save_reload_auto_grade_and_context_change (test_grading.GradingUITests.test_editor_save_reload_auto_grade_and_context_change) ... ok
+test_bidirectional_coordinates_include_nonlinear_stage (test_local_warp.LocalWarpTests.test_bidirectional_coordinates_include_nonlinear_stage) ... ok
+test_fold_or_severe_local_stretch_rejected (test_local_warp.LocalWarpTests.test_fold_or_severe_local_stretch_rejected) ... ok
+test_large_displacements_rejected (test_local_warp.LocalWarpTests.test_large_displacements_rejected) ... ok
+test_missing_markers (test_markers.MarkerTests.test_missing_markers) ... ok
+test_squares_and_distractors (test_markers.MarkerTests.test_squares_and_distractors) ... ok
+test_degenerate_rejected (test_perspective.PerspectiveTests.test_degenerate_rejected) ... ok
+test_order_and_project (test_perspective.PerspectiveTests.test_order_and_project) ... ok
+test_all_sections_and_artifacts (test_pipeline.PipelineTests.test_all_sections_and_artifacts) ... ok
+test_bad_alignment_never_emits_answers (test_pipeline.PipelineTests.test_bad_alignment_never_emits_answers) ... alignment_failed: Only 0/6 independent auxiliary markers matched
+ok
+test_blur_fails (test_pipeline.PipelineTests.test_blur_fails) ... image_too_blurry: Laplacian variance below minimum
+ok
+test_invalid_template_and_checksum (test_pipeline.PipelineTests.test_invalid_template_and_checksum) ... ok
+test_local_grid_displacement_rejected (test_pipeline.PipelineTests.test_local_grid_displacement_rejected) ... alignment_failed: Local block alignment failed: phan_1/1_10, mean distance=4.77px
+ok
+test_missing_main_marker_fails_safely (test_pipeline.PipelineTests.test_missing_main_marker_fails_safely) ... orientation_failed: Orientation uncertain: errors=[3.127, 3.169, 3.25, 3.407]
+ok
+test_quarter_turns (test_pipeline.PipelineTests.test_quarter_turns) ... ok
+test_real_mark_edge_cases (test_pipeline.PipelineTests.test_real_mark_edge_cases) ... P1:Q1 multiple
+ok
+test_three_reported_alignment_failures_and_grid_output (test_reported_photos.ReportedPhotoTests.test_three_reported_alignment_failures_and_grid_output) ... skipped 'User test photos unavailable'
+test_whitened_scan_preserves_answers_and_blank_cells (test_reported_photos.ReportedPhotoTests.test_whitened_scan_preserves_answers_and_blank_cells) ... skipped 'User test photos unavailable'
+test_crop_pixels_and_copy (test_roi.ROITests.test_crop_pixels_and_copy) ... ok
+test_invalid_bounds (test_roi.ROITests.test_invalid_bounds) ... ok
+test_failed_run_has_no_answer_rows (test_ui.PresenterTests.test_failed_run_has_no_answer_rows) ... ok
+test_values_preserve_leading_zero_and_multiple (test_ui.PresenterTests.test_values_preserve_leading_zero_and_multiple) ... ok
+test_experimental_template_on_user_photo (test_ui.RealSheetTests.test_experimental_template_on_user_photo) ... ok
+test_background_job_restores_controls (test_ui.UITests.test_background_job_restores_controls) ... ok
+test_failure_is_visible_and_exportable (test_ui.UITests.test_failure_is_visible_and_exportable) ... ok
+test_json_and_debug_exports (test_ui.UITests.test_json_and_debug_exports) ... ok
+test_render_sections_and_clear_stale_results (test_ui.UITests.test_render_sections_and_clear_stale_results) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 8.564s
+
+OK (skipped=2)

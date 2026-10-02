@@ -1,0 +1,151 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:extractDebugPythonBuildPackages UP-TO-DATE
+
+> Task :app:installDebugPythonRequirements
+Chaquopy: Installing for arm64-v8a
+Looking in indexes: https://pypi.org/simple, https://chaquo.com/pypi-13.1
+Collecting numpy==1.26.2
+  Using cached https://chaquo.com/pypi-13.1/numpy/numpy-1.26.2-0-cp310-cp310-android_21_arm64_v8a.whl (5.0 MB)
+Collecting opencv-python-headless==4.5.1.48
+  Using cached https://chaquo.com/pypi-13.1/opencv-python-headless/opencv_python_headless-4.5.1.48-2-cp310-cp310-android_24_arm64_v8a.whl (9.0 MB)
+Collecting chaquopy-libcxx>=11000 (from numpy==1.26.2)
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-libcxx/chaquopy_libcxx-180000-0-py3-none-android_24_arm64_v8a.whl (413 kB)
+Collecting chaquopy-openblas>=0.2.20 (from numpy==1.26.2)
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-openblas/chaquopy_openblas-0.2.20-5-py3-none-android_21_arm64_v8a.whl (4.3 MB)
+Collecting chaquopy-libgfortran>=4.9 (from opencv-python-headless==4.5.1.48)
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-libgfortran/chaquopy_libgfortran-4.9-0-py3-none-android_21_arm64_v8a.whl (495 kB)
+Collecting chaquopy-libpng>=1.6.34 (from opencv-python-headless==4.5.1.48)
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-libpng/chaquopy_libpng-1.6.34-1-py3-none-android_21_arm64_v8a.whl (175 kB)
+Collecting chaquopy-libjpeg>=1.5.3 (from opencv-python-headless==4.5.1.48)
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-libjpeg/chaquopy_libjpeg-1.5.3-1-py3-none-android_21_arm64_v8a.whl (176 kB)
+Installing collected packages: chaquopy-libpng, chaquopy-libjpeg, chaquopy-libgfortran, chaquopy-libcxx, chaquopy-openblas, numpy, opencv-python-headless
+
+Successfully installed chaquopy-libcxx-180000 chaquopy-libgfortran-4.9 chaquopy-libjpeg-1.5.3 chaquopy-libpng-1.6.34 chaquopy-openblas-0.2.20 numpy-1.26.2 opencv-python-headless-4.5.1.48
+
+Chaquopy: Installing for armeabi-v7a
+Looking in indexes: https://pypi.org/simple, https://chaquo.com/pypi-13.1
+Collecting chaquopy-libcxx==180000
+  Downloading https://chaquo.com/pypi-13.1/chaquopy-libcxx/chaquopy_libcxx-180000-0-py3-none-android_24_armeabi_v7a.whl (355 kB)
+Collecting chaquopy-libgfortran==4.9
+  Downloading https://chaquo.com/pypi-13.1/chaquopy-libgfortran/chaquopy_libgfortran-4.9-0-py3-none-android_16_armeabi_v7a.whl (394 kB)
+Collecting chaquopy-libjpeg==1.5.3
+  Downloading https://chaquo.com/pypi-13.1/chaquopy-libjpeg/chaquopy_libjpeg-1.5.3-1-py3-none-android_16_armeabi_v7a.whl (122 kB)
+Collecting chaquopy-libpng==1.6.34
+  Downloading https://chaquo.com/pypi-13.1/chaquopy-libpng/chaquopy_libpng-1.6.34-1-py3-none-android_16_armeabi_v7a.whl (143 kB)
+Collecting chaquopy-openblas==0.2.20
+  Downloading https://chaquo.com/pypi-13.1/chaquopy-openblas/chaquopy_openblas-0.2.20-5-py3-none-android_16_armeabi_v7a.whl (4.0 MB)
+     ---------------------------------------- 4.0/4.0 MB 1.2 MB/s  0:00:03
+Collecting numpy==1.26.2
+  Downloading https://chaquo.com/pypi-13.1/numpy/numpy-1.26.2-0-cp310-cp310-android_21_armeabi_v7a.whl (5.0 MB)
+     ---------------------------------------- 5.0/5.0 MB 1.7 MB/s  0:00:02
+Collecting opencv-python-headless==4.5.1.48
+  Downloading https://chaquo.com/pypi-13.1/opencv-python-headless/opencv_python_headless-4.5.1.48-2-cp310-cp310-android_24_armeabi_v7a.whl (8.2 MB)
+     ---------------------------------------- 8.2/8.2 MB 2.7 MB/s  0:00:03
+Installing collected packages: chaquopy-openblas, chaquopy-libpng, chaquopy-libjpeg, chaquopy-libgfortran, chaquopy-libcxx, opencv-python-headless, numpy
+
+Successfully installed chaquopy-libcxx-180000 chaquopy-libgfortran-4.9 chaquopy-libjpeg-1.5.3 chaquopy-libpng-1.6.34 chaquopy-openblas-0.2.20 numpy-1.26.2 opencv-python-headless-4.5.1.48
+
+Chaquopy: Installing for x86_64
+Looking in indexes: https://pypi.org/simple, https://chaquo.com/pypi-13.1
+Collecting chaquopy-libcxx==180000
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-libcxx/chaquopy_libcxx-180000-0-py3-none-android_24_x86_64.whl (422 kB)
+Collecting chaquopy-libgfortran==4.9
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-libgfortran/chaquopy_libgfortran-4.9-0-py3-none-android_21_x86_64.whl (541 kB)
+Collecting chaquopy-libjpeg==1.5.3
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-libjpeg/chaquopy_libjpeg-1.5.3-1-py3-none-android_21_x86_64.whl (147 kB)
+Collecting chaquopy-libpng==1.6.34
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-libpng/chaquopy_libpng-1.6.34-1-py3-none-android_21_x86_64.whl (159 kB)
+Collecting chaquopy-openblas==0.2.20
+  Using cached https://chaquo.com/pypi-13.1/chaquopy-openblas/chaquopy_openblas-0.2.20-5-py3-none-android_21_x86_64.whl (5.3 MB)
+Collecting numpy==1.26.2
+  Using cached https://chaquo.com/pypi-13.1/numpy/numpy-1.26.2-0-cp310-cp310-android_21_x86_64.whl (6.5 MB)
+Collecting opencv-python-headless==4.5.1.48
+  Using cached https://chaquo.com/pypi-13.1/opencv-python-headless/opencv_python_headless-4.5.1.48-2-cp310-cp310-android_24_x86_64.whl (10.5 MB)
+Installing collected packages: chaquopy-openblas, chaquopy-libpng, chaquopy-libjpeg, chaquopy-libgfortran, chaquopy-libcxx, opencv-python-headless, numpy
+
+Successfully installed chaquopy-libcxx-180000 chaquopy-libgfortran-4.9 chaquopy-libjpeg-1.5.3 chaquopy-libpng-1.6.34 chaquopy-openblas-0.2.20 numpy-1.26.2 opencv-python-headless-4.5.1.48
+
+> Task :app:mergeDebugPythonSources
+> Task :app:generateDebugPythonProxies
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:generateDebugPythonMiscAssets
+> Task :app:compileDebugKotlin
+> Task :app:generateDebugPythonRequirementsAssets
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:generateDebugPythonSourceAssets
+> Task :app:generateDebugPythonBuildAssets
+> Task :app:mergeDebugAssets
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:compressDebugAssets
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:generateDebugPythonJniLibs
+> Task :app:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:generateDebugLintReportModel
+> Task :app:mergeDebugNativeLibs
+> Task :app:processDebugManifestForPackage
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libchaquopy_java.so, libcrypto_chaquopy.so, libcrypto_python.so, libpython3.10.so, libsqlite3_chaquopy.so, libsqlite3_python.so, libssl_chaquopy.so, libssl_python.so. Run with --info option to learn more.
+
+> Task :app:processDebugResources
+> Task :app:dexBuilderDebug
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:mergeProjectDexDebug
+> Task :app:compileDebugUnitTestKotlin UP-TO-DATE
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :app:testDebugUnitTest
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+> Task :app:lintAnalyzeDebug
+> Task :app:lintAnalyzeDebugUnitTest
+> Task :app:lintAnalyzeDebugAndroidTest
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///C:/Users/nqt00/OneDrive/Desktop/New%20folder/ORM-ANDROID/app/build/reports/lint-results-debug.html
+Wrote SARIF report to file:///C:/Users/nqt00/OneDrive/Desktop/New%20folder/ORM-ANDROID/app/build/reports/lint-results-debug.sarif
+
+> Task :app:lintDebug
+
+[Incubating] Problems report is available at: file:///C:/Users/nqt00/OneDrive/Desktop/New%20folder/ORM-ANDROID/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.6.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 31s
+60 actionable tasks: 34 executed, 26 up-to-date

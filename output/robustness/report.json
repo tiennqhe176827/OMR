@@ -1,0 +1,249 @@
+{
+  "dataset": "output\\robustness\\fixture\\filled.png",
+  "template": "output\\robustness\\fixture\\synthetic_template.json",
+  "note": "Synthetic transformations measure this input only; not real-world production accuracy.",
+  "variants": [
+    {
+      "variant": "original",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 0.5131744000009348
+    },
+    {
+      "variant": "rotation_-15",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 0.5538529999994353
+    },
+    {
+      "variant": "rotation_-10",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 0.5336960999993607
+    },
+    {
+      "variant": "rotation_-5",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 0.5191040999998222
+    },
+    {
+      "variant": "rotation_-3",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 0.5567478000011761
+    },
+    {
+      "variant": "rotation_3",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.6846669999995356
+    },
+    {
+      "variant": "rotation_5",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.5701864999991813
+    },
+    {
+      "variant": "rotation_10",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.82858909999959
+    },
+    {
+      "variant": "rotation_15",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.867895800000042
+    },
+    {
+      "variant": "orientation_90",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.5176652999998623
+    },
+    {
+      "variant": "orientation_180",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.5358052999999927
+    },
+    {
+      "variant": "orientation_270",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.7182214999993448
+    },
+    {
+      "variant": "perspective",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.644896299998436
+    },
+    {
+      "variant": "scale_0.6",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.4697900999999547
+    },
+    {
+      "variant": "scale_1.3",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.8416625000008935
+    },
+    {
+      "variant": "brightness_0.65",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.669922900000529
+    },
+    {
+      "variant": "brightness_1.2",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.6922794000001886
+    },
+    {
+      "variant": "contrast",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.5875377000011213
+    },
+    {
+      "variant": "blur",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.6444286000005377
+    },
+    {
+      "variant": "noise",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.523720699999103
+    },
+    {
+      "variant": "jpeg_45",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.5288579999996728
+    },
+    {
+      "variant": "shadow",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.577709799999866
+    },
+    {
+      "variant": "off_center",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.5790242999992188
+    },
+    {
+      "variant": "slight_edge_crop",
+      "pipeline_status": "ok",
+      "correct_groups": 105,
+      "total_groups": 105,
+      "accuracy": 1.0,
+      "error": null,
+      "mismatches": [],
+      "elapsed_seconds": 1.6519991000004666
+    }
+  ],
+  "mean_group_accuracy": 1.0,
+  "complete_sheet_success_rate": 1.0
+}

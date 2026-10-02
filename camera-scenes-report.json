@@ -1,0 +1,86 @@
+[
+  {
+    "scene": "camera_gray",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 0.4038645999989967
+  },
+  {
+    "scene": "camera_limited_y",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 0.40715740000086953
+  },
+  {
+    "scene": "paper_1000_background_25",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 0.39377909999893745
+  },
+  {
+    "scene": "paper_1000_background_25_shadow",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 0.3917562000006001
+  },
+  {
+    "scene": "paper_1000_background_120",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 0.39558000000033644
+  },
+  {
+    "scene": "paper_1000_background_120_shadow",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 0.39512329999888607
+  },
+  {
+    "scene": "paper_1400_background_25",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 1.1753501999992295
+  },
+  {
+    "scene": "paper_1400_background_25_shadow",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 1.2716572000008455
+  },
+  {
+    "scene": "paper_1400_background_120",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 1.3165684000014153
+  },
+  {
+    "scene": "paper_1400_background_120_shadow",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 1.3496481999991374
+  },
+  {
+    "scene": "perspective_dark_table",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 1.3133158000000549
+  },
+  {
+    "scene": "perspective_shadow",
+    "status": "ok",
+    "error": null,
+    "mismatches_from_baseline": [],
+    "elapsed_seconds": 1.2325044999997772
+  }
+]
